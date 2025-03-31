@@ -109,12 +109,24 @@
   flex-direction: column;
 }
 
-.balance-icon {
+/* .balance-icon {
   margin-right: 8px;
   font-size: 25px;
   border: #aaa 1px solid;
   padding: 4px 8px;
   border-radius: 30px;
+} */
+ .balance-icon {
+    margin-right: 8px;
+    font-size: 25px;
+    border: #aaa 1px solid;
+    padding: 4px 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
 }
 
 .card_title {
@@ -459,7 +471,7 @@
   color: #4f46e5;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .dashboard-layout {
     grid-template-columns: 1fr;
   }
@@ -483,3 +495,6 @@
     gap: 29px;
   }
 }
+
+
+
