@@ -9,7 +9,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
+.side-column{
+  width: 309px;
+}
+
 
 .dashboard-section {
   background-color: white;
@@ -482,19 +487,18 @@
   }
 }
 
-@media (max-width: 1188px) {
-  .saving-plan-container {
-    display: grid;
-    gap: 22px;
+ @media (max-width: 1120px) {
+  .side-column{
+    width: auto;
   }
 }
 
-@media (max-width: 1175px) {
+/* @media (max-width: 1211px) {
   .saving-plan-container {
     display: grid;
-    gap: 29px;
+    gap: 31px;
   }
-}
+}  */
 
 
 
